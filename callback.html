@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <script>
+        window.opener.postMessage(window.location.href, '*');
+
+        try {
+            window.close();
+        }
+        catch (e) { console.log(e) }
+
+        try {
+            self.close();
+        }
+        catch (e) { console.log(e) }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
