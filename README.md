@@ -6,7 +6,7 @@
 - Includes callback.html and index.html
 - Gets authentication code, access token, id token, and information on current user.
 - Decodes JWT id token
-- Gets 4 generations of ancestors for current user and create individual entities for each ancestor.
+- Gets 4 generations of ancestors for current user and creates individual entities for each ancestor.
 
 # How To Setup Project with FamilySearch API Key
 
